@@ -4,21 +4,21 @@
             
             <!-- LOGO -->
             <div class="absolute left-0 text-white">
-                <h2 class="text-xl mb-0 font-title">LOGO</h2>
+                <img class="h-full w-24" src="../../assets/logo.png" alt="Logo do NTO Raiton">
             </div>
 
             <!-- MENU DESKTOP -->
-            <ul class="items-center gap-11 hidden lg:flex">
+            <!-- <ul class="items-center gap-11 hidden lg:flex">
                 <li class="relative" v-for="item in state.menuItems" :key="item.value">
                     <a :href="item.link" class="menu__link text-white">{{
                         item.label
                     }}</a>
                 </li>
-            </ul>
+            </ul> -->
 
             <!-- MENU MOBILE -->
-            <div class="absolute right-0 lg:hidden">
-                <!-- HAMBURGER -->
+            <!-- <div class="absolute right-0 lg:hidden">
+                HAMBURGER 
                 <div class="menu__hamburger space-y-2 cursor-pointer"
                     :class="state.menuMobileIsOpen ? 'hamburgerIsActive' : ''" @click.stop="toogleMenu">
                     <div class="w-8 h-0.5 bg-white"></div>
@@ -26,7 +26,7 @@
                     <div class="w-8 h-0.5 bg-white"></div>
                 </div>
 
-                <!-- LINKS MOBILE -->
+                 LINKS MOBILE
                 <div id="header-links-mobile"
                     class="absolute z-50 bg-blue-500 w-60 right-0 top-10 p-5 text-right h-screen transition-all duration-200 ease-in-out"
                     :class="state.menuMobileIsOpen ? 'linksMobileVisible' : 'linksMobileHidden'">
@@ -38,10 +38,12 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
 
             <!-- TERCEIRO ELEMENTO -->
-            <div class="absolute right-1/2 lg:right-0 transform translate-x-1/2 lg:translate-x-0 w-24 h-7 border border-white "></div>
+            <div class="absolute right-1/2 lg:right-0 transform translate-x-1/2 lg:translate-x-0 w-auto flex items-center justify-center text-center h-10">
+                <h2 class="text-white text-2xl">Wiki NTO Raiton</h2>
+            </div>
         </nav>
     </div>
 </template>
