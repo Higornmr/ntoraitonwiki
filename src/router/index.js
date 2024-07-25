@@ -7,22 +7,21 @@ const Home = () => import('../views/Home/index.vue')
 
 export const routes = [
     {
-        path: '/exemplo',
-        name: 'example',
+        path: '/',
+        name: 'name',
         component: Example,
         meta: {
             layout: LayoutDefault
         }
     },
-    {
-        path: '/',
-        name: 'home',
-        component: Home,
-        redirect: '/exemplo',
-        meta: {
-            layout: LayoutEmpty
-        }
-    }
+    // {
+    //     path: '/',
+    //     name: 'home',
+    //     component: Home,
+    //     meta: {
+    //         layout: LayoutEmpty
+    //     }
+    // }
 ]
 
 const router = createRouter({

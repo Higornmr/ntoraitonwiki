@@ -1,17 +1,31 @@
 <template>
-  <h1>
-    Home
-  </h1>
+  <div class="flex flex-col justify-between bg-white w-full min-h-screen overflow-x-hidden" >
+      <header>
+          <Header />
+      </header>
+      <main class="flex flex-col flex-1 mt-[60px]">
+          <slot />
+      </main>
+      <footer>
+          <Footer />
+      </footer>
+  </div>
 </template>
 
 <script>
-
+import Header from '../../components/Header/index.vue'
+import Footer from '../../components/Footer/index.vue'
 export default {
+  name: 'LayoutDefault',
+  components: {
+      Header,
+      Footer
+  },
   setup() {
 
-    return {
+  }
 
-    };
-  },
-};
+}
 </script>
+
+<style></style>
