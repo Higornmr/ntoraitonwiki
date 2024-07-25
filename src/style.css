@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: 'Ninja Naruto';
+    src: url('/src/assets/njnaruto.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,11 +1,11 @@
 <template>
-    <div class="flex justify-center w-full px-3 h-[60px] fixed top-0 z-50 bg-blue-900">
+    <div class="flex justify-center w-full px-3 h-[60px] fixed top-0 z-50 bg-[#353535]">
         <nav class="relative flex items-center justify-center w-full max-w-7xl">
             
             <!-- LOGO -->
-            <div class="absolute left-0 text-white">
+            <a href="https://www.ntoraiton.com/" target="_blank" class="absolute left-0 text-white">
                 <img class="h-full w-24" src="../../assets/logo.png" alt="Logo do NTO Raiton">
-            </div>
+            </a>
 
             <!-- MENU DESKTOP -->
             <!-- <ul class="items-center gap-11 hidden lg:flex">
@@ -42,7 +42,7 @@
 
             <!-- TERCEIRO ELEMENTO -->
             <div class="absolute right-1/2 lg:right-0 transform translate-x-1/2 lg:translate-x-0 w-auto flex items-center justify-center text-center h-10">
-                <h2 class="text-white text-2xl">Wiki NTO Raiton</h2>
+                <h2 class="text-white text-2xl font-ninja">Wiki NTO Raiton</h2>
             </div>
         </nav>
     </div>
