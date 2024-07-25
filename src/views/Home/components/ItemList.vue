@@ -1,7 +1,7 @@
 <template>
-    <ul class="list-none flex flex-wrap gap-4 p-0 m-0 px-3">
+    <ul class="list-none flex flex-wrap gap-4 p-0 m-0 px-3 justify-center">
       <li 
-        class="p-4 mb-4 rounded-lg shadow-xl shadow-gray-400 max-w-[420px] bg-[#EDEDED]"
+        class="p-4 mb-4 rounded-lg shadow-xl shadow-gray-400 sm:w-[420px] w-[300px]  bg-[#EDEDED]"
         v-for="item in items" :key="item.id"
       >
         <div class="h-[90px] w-[90px]">
