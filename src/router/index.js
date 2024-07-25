@@ -1,27 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import LayoutDefault from '../layouts/LayoutDefault.vue'
-import LayoutEmpty from '../layouts/LayoutEmpty.vue'
 
-const Example = () => import('../views/ExampleView/index.vue')
 const Home = () => import('../views/Home/index.vue')
 
 export const routes = [
     {
         path: '/',
         name: 'name',
-        component: Example,
+        component: Home,
         meta: {
             layout: LayoutDefault
         }
     },
-    // {
-    //     path: '/',
-    //     name: 'home',
-    //     component: Home,
-    //     meta: {
-    //         layout: LayoutEmpty
-    //     }
-    // }
 ]
 
 const router = createRouter({
