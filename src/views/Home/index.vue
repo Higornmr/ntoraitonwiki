@@ -1,8 +1,8 @@
 <template>
   <div class="flex-1 flex flex-col gap-14 py-10 items-center bg-white">
     <FilterButtons :buttons="buttons" @filter="fetchItems" />
-    <div class="w-full max-w-7xl border border-gray-800"></div>
-    <ItemList :items="items" />
+    <div class="w-full max-w-7xl border border-[#008B8B]"></div>
+    <ItemList :items="items"/>
   </div>
 </template>
 
