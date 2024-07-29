@@ -1,13 +1,13 @@
 export default [
     { 
         id: 1, 
-        image: 'https://picsum.photos/200/300?random=1',
-        alt: 'nome do item',
-        name: 'Armor 1-1',
-        status: 'Arm:13, taijutsu abillity +8',
-        weighs: '10',
-        attributes: 'Piece made by suna sand and chakra increasing glove skills and recovering health and chakra 1000/s',
-        drop: 'monster'
+        image: '/images/armors/generations-coat.png',
+        alt: 'Generations Coat',
+        name: 'Generations Coat',
+        status: 'Arm:17',
+        weighs: '149.00',
+        attributes: 'Chakra and health recovery 5000/s',
+        drop: 'Leaf Kyodaigumo'
     },
     { 
         id: 2, 
