@@ -28,7 +28,7 @@ Este site foi construído usando HTML, TailWindCss, VueJs!
 
  Movies and their trailers
 
- <img src="https://github.com/Higornmr/disneyplus-clone/blob/master/.github/gif.gif">
+ <img src="https://github.com/Higornmr/ntoraitonwiki/tree/master/.github/gif.gif">
 
 ## :rocket: Technologies ##
 
