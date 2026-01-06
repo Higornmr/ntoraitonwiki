@@ -44,7 +44,7 @@ The following tools were used in this project:
 # Clone this project
 $ git clone https://github.com/Higornmr/ntoraitonwiki.git
 # Access
-$ cd disneyplus-clone
+$ cd ntoraitonwiki
 # Node version 
 $ 20.9.0
 $ npm install
